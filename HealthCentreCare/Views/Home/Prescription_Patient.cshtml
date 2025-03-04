@@ -5,7 +5,6 @@
     Layout = "~/Views/Shared/_CommonLayout2.cshtml";
 }
 
-
 <div class="card mt-4">
     <div class="card-header">
         <h4>Prescription Details</h4>
@@ -31,38 +30,40 @@
                 <label>Prescribed Medicines & Total Price</label>
                 <table class="table table-bordered">
                     <thead>
-                        <tr>
-                            <th>Medicine Name</th>
-                            <th>Quantity</th>
-                            <th>Price</th>
-                        </tr>
+                    <tr>
+                        <th>Medicine Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Paracetamol</td>
-                            <td>10 Tablets</td>
-                            <td>$5</td>
-                        </tr>
-                        <tr>
-                            <td>Ibuprofen</td>
-                            <td>5 Tablets</td>
-                            <td>$7</td>
-                        </tr>
+                    <tr>
+                        <td>Paracetamol</td>
+                        <td>10 Tablets</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Ibuprofen</td>
+                        <td>5 Tablets</td>
+                        <td>$7</td>
+                    </tr>
                     </tbody>
                     <tfoot>
-                        <tr>
-                            <th colspan="2">Total Price</th>
-                            <th>$12</th>
-                        </tr>
+                    <tr>
+                        <th colspan="2">Total Price</th>
+                        <th>$12</th>
+                    </tr>
                     </tfoot>
                 </table>
             </div>
+        </div>
 
-           @*  <!-- Payment for Medicines -->
+        @* Payment for Medicines Section *@
+        <div class="row mb-3">
             <div class="col-md-12 text-center">
                 <button type="button" class="btn btn-primary btn-lg">Pay for Medicines</button>
             </div>
-        </div> *@
+        </div>
 
         <div class="row mb-3">
             <!-- Lab Tests Table -->
@@ -70,35 +71,37 @@
                 <label>Lab Tests & Total Price</label>
                 <table class="table table-bordered">
                     <thead>
-                        <tr>
-                            <th>Test Name</th>
-                            <th>Price</th>
-                        </tr>
+                    <tr>
+                        <th>Test Name</th>
+                        <th>Price</th>
+                    </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Blood Test</td>
-                            <td>$20</td>
-                        </tr>
-                        <tr>
-                            <td>X-Ray</td>
-                            <td>$50</td>
-                        </tr>
+                    <tr>
+                        <td>Blood Test</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr>
+                        <td>X-Ray</td>
+                        <td>$50</td>
+                    </tr>
                     </tbody>
                     <tfoot>
-                        <tr>
-                            <th>Total Price</th>
-                            <th>$70</th>
-                        </tr>
+                    <tr>
+                        <th>Total Price</th>
+                        <th>$70</th>
+                    </tr>
                     </tfoot>
                 </table>
             </div>
+        </div>
 
-        @*     <!-- Payment for Lab Tests -->
+        @* Payment for Lab Tests Section *@
+        <div class="row mb-3">
             <div class="col-md-12 text-center">
                 <button type="button" class="btn btn-primary btn-lg">Pay for Lab Tests</button>
             </div>
-        </div> *@
+        </div>
 
         <div class="row mb-3">
             <!-- Recommendations Table -->
@@ -106,26 +109,26 @@
                 <label>Recommendations</label>
                 <table class="table table-bordered">
                     <thead>
-                        <tr>
-                            <th>Medicine Name</th>
-                            <th>When to Take</th>
-                            <th>Dosage</th>
-                            <th>Duration</th>
-                        </tr>
+                    <tr>
+                        <th>Medicine Name</th>
+                        <th>When to Take</th>
+                        <th>Dosage</th>
+                        <th>Duration</th>
+                    </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Paracetamol</td>
-                            <td>After Meals</td>
-                            <td>1 Tablet</td>
-                            <td>5 Days</td>
-                        </tr>
-                        <tr>
-                            <td>Ibuprofen</td>
-                            <td>Before Sleep</td>
-                            <td>1 Tablet</td>
-                            <td>3 Days</td>
-                        </tr>
+                    <tr>
+                        <td>Paracetamol</td>
+                        <td>After Meals</td>
+                        <td>1 Tablet</td>
+                        <td>5 Days</td>
+                    </tr>
+                    <tr>
+                        <td>Ibuprofen</td>
+                        <td>Before Sleep</td>
+                        <td>1 Tablet</td>
+                        <td>3 Days</td>
+                    </tr>
                     </tbody>
                 </table>
             </div>
@@ -136,15 +139,9 @@
             <div class="col-md-12">
                 <label>Extra Advice</label>
                 <p class="form-control-plaintext">
-                    Drink plenty of water and get adequate rest. Avoid spicy food
+                    Drink plenty of water and get adequate rest. Avoid spicy food.
                 </p>
             </div>
         </div>
     </div>
 </div>
-
-
-
-
-
-
